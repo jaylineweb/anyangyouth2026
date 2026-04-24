@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" name="viewport" />
+    <meta content="안양청년광장, 청년광장, 안양시 청년광장" name="keywords">
+    <meta content="안양청년광장 홈페이지입니다." name="description" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="/public/images/common/meta_ay2.png" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="안양청년광장" property="og:site_name" />
+    <meta content="안양청년광장" property="og:title" />
+    <meta content="안양청년광장 홈페이지입니다." property="og:description" />
+    <meta content="website" property="og:type" />
+    <meta content="3369ab" name="theme-color">
+    <link href="/common/css/font.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/common/css/font_ie8.css" /><![endif]-->
+    <link href="/site/youth_2026/css/main.css?ver=20250224" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]><script src="/common/js/html5.js"></script><![endif]-->
+    <script src="/common/js/jquery-1.12.4.min.js"></script>
+    <script src="/common/js/jquery-ui.min.js"></script>
+    <script src="/common/js/jquery.easing.1.3.min.js"></script>
+    <script src="/common/js/jquery.screen.min.js"></script>
+    <script src="/common/js/jquery.menu.min.js"></script>
+    <script>
+        var site = {
+            id:'youth',
+            key:'',
+            layout:'',
+            order:'',
+            login:'false'
+        };
+    </script>
+    <script src="/site/youth_2026/js/slick.min.js"></script>
+    <script src="/site/youth_2026/js/slick.extensions.min.js"></script>
+    <script src="/common/js/layout.js"></script>
+    <script src="/common/js/common.js"></script>
+    <script src="/site/youth_2026/js/common.js?ver20240205"></script>
+    <script src="/site/youth_2026/js/plugins.js"></script>
+    <script src="/site/youth_2026/js/main.js"></script>
+    <script src="/site/youth_2026/js/layerpopup.js"></script>
+    <title>안양청년광장</title>
+    <style>
+        #divpopup1 {position:absolute;left:200px;top:150px;width:auto;margin-left:auto;margin-right:auto;z-index:999;}
+        #divpopup1 img {border:1px solid #d5dae2;box-sizing:border-box;}
+        #divpopup1 .divpopup_form {padding-top:3px;padding-bottom:3px;background:#000;}
+        #divpopup1 .divpopup_form input {vertical-align:middle;margin-left:5px;}
+        #divpopup1 .divpopup_form label {vertical-align:middle;margin-left:5px;}
+        #divpopup1 .divpopup_chk {color:#fff;float:left;vertical-align:middle;}
+        #divpopup1 .divpopup_close {float:right;margin-right:5px;}
+        #divpopup1 .divpopup_close a {text-decoration:none;}
+        #divpopup1 .divpopup_close span {color:#fff333;font-size:14px;line-height:20px;font-weight:600;vertical-align:middle;}
+        #divpopup1 .img_area {height:500px;overflow-y:scroll;}
+        #divpopup1 .m_img {display:none;}
+        @media screen and (max-width:800px) {
+            #divpopup1 {top:5%;left:0;right:0;}
+        }
+
+        @media screen and (max-width:640px) {
+            #divpopup1 {width:94%;}
+            #divpopup1 img {max-width:100%;}
+            #divpopup1 {width:300px;}
+            #divpopup1 .w_img {display:none;}
+            #divpopup1 .m_img {display:block;}
+        }
+    </style>
+</head>
+
+<body class="main" id="main">
+    <script type="text/JavaScript">
+        //<![CDATA[
+        cookiedata = document.cookie;
+
+        if (cookiedata.indexOf("divpopup1=done") >= 0) {
+            document.all['divpopup1'].style.visibility = "hidden";
+        }
+        //]]>
+    </script>
+    <script language="JavaScript">
+        var today = new Date();
+
+        // html 에서 data-expired 가 설정된 팝업 div 들을 찾기
+        var popup = document.querySelectorAll('[data-expired]');
+        for (var i = 0, size = popup.length; i < size; i++) {
+            // 문자열을 공백, -, :으로 나눠서 배열로 저장
+            var d = popup[i].getAttribute('data-expired').split(/[\s,\-:]+/);
+            var expired_date = new Date(+d[0], +d[1] - 1, +d[2], +d[3] || 23, +d[4] || 59, +d[5] || 59);
+
+            // 오늘이 설정한 expired date 전이면 팝업창 보여지게
+            if (today <= expired_date) {
+                popup[i].style.display = 'block';
+            }
+            // 아니면 html 에서 삭제 시킴
+            else {
+                popup[i].parentElement.removeChild(popup[i]);
+            }
+        }
+    </script>
+    <div align="center" style="opacity:0;position:absolute;top:0;left:50%;z-index:121;width:1920px;transform:translateX(-50%);pointer-events:none;">
+        <img src="/v2_3.jpg" alt=""/>
+    </div>
+    <div id="wrapper">
+        <header id="header">
+            <div class="accessibility">
+                <a href="#container">본문 바로가기</a>
+            </div>
+            
+            <div class="header_wrap">
+                <div class="gnb">
+                    <div class="wrap clearfix">
+                        <div class="gnb_list_wrap">
+                            <ul class="gnb_list clearfix">
+                                <li class="gnb_item"><a class="gnb_text" href="javascrip:void(0);">로그인</a></li>
+                                <li class="gnb_item"><a class="gnb_text" href="javascript:void(0);">회원가입</a></li>
+                                <li class="gnb_item"><a class="util_btn" href="javascript:void(0);"><em>안양청년광장</em></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo">
+                    <h1 class="wrap">
+                        <a href="/youth/index.do"><span class="logo_image skip">스마트 안양</span><span class="logo_title">안양청년광장</span></a>
+                    </h1>
+                </div>
+                <div class="lnb">
+                    <div class="menu_show">
+                        <button class="menu_button" type="button">주메뉴 토글</button>
+                    </div>
+                    <div class="lnb_title">
+                        <div class="lnb_logo">
+                            <span>안양청년광장</span>
+                        </div>
+                    </div>
+                    <nav class="menu after eachdown">
+                        <h2 class="skip">주메뉴</h2>
+                        <div class="depth depth1">
+                            <!-- 차수에 맞는 숫자와 조합하여 클래스를 넣어주세요 (예 :depth#, depth#_#) -->
+                             <ul class="depth_list depth1_list clearfix">
+                                <li class="depth_item depth1_item">
+                                    <a class="depth_text depth1_text" href="" target="_self">공간소개</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="" target="_self">두번째 메뉴1</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="" target="_self">세번째 메뉴1</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="" target="_self">세번째 메뉴2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a class="depth_text depth1_text" href="" target="_self">알림소식</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="" target="_self">두번째 메뉴1</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="" target="_self">세번째 메뉴1</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="" target="_self">세번째 메뉴2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a class="depth_text depth1_text" href="" target="_self">공간대관</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="" target="_self">두번째 메뉴1</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="" target="_self">세번째 메뉴1</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="" target="_self">세번째 메뉴2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a class="depth_text depth1_text" href="" target="_self">프로그램</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="" target="_self">두번째 메뉴1</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="" target="_self">세번째 메뉴1</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="" target="_self">세번째 메뉴2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a class="depth_text depth1_text" href="" target="_self">커뮤니티</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="" target="_self">두번째 메뉴1</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="" target="_self">세번째 메뉴1</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="" target="_self">세번째 메뉴2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <ul class="depth_list depth1_list clearfix">
+                                <li class="depth_item depth1_item">
+                                    <a class="depth_text depth1_text" href="/youth/contents.do?key=3752" target="_self">안양청년정책</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/contents.do?key=3752" target="_self">인사말</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3752" target="_self">인사말</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3753" target="_self">청년의날 축하영상</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/selectBbsNttList.do?bbsNo=1184&amp;key=3543" target="_self">공지사항</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/contents.do?key=4201" target="_self">청년정책 캘린더</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/contents.do?key=5152" target="_self">안양청년지도</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/selectBbsNttList.do?bbsNo=1875&amp;key=4381" target="_self">청년정보</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/selectBbsNttList.do?bbsNo=1875&amp;key=4381" target="_self">청년아카데미</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3548" target="_self">청년정보 사이트</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/selectBbsNttList.do?bbsNo=1185&amp;key=3549" target="_self">청년자료실</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/selectBbsNttList.do?bbsNo=1186&amp;key=3550" target="_self">행사사진</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="https://www.youthcenter.go.kr/youthPolicy/ythPlcyTotalSearch" target="_blank">통합 청년정책검색</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/selectBbsNttList.do?bbsNo=1187&amp;key=3551" target="_self">홍보영상</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a class="depth_text depth1_text" href="/youth/contents.do?key=3544" target="_self">청년소통참여</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/contents.do?key=3544" target="_self">청년소통참여</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/selectResveWebView.do?key=3560&amp;onlineResveNo=95" target="_self">청년정책조정위원회</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3555" target="_self">청년정책참여기구(서포터즈) 운영</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3556" target="_self">청년단체 네트워크활성화 지원사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3557" target="_self">청년동아리 지원사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3614" target="_self">청년상 시상</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3615" target="_self">청년 자원봉사 프로그램 공모사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4116" target="_self">청년 역량강화 프로그램 운영</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4119" target="_self">안양청년의 날 기념식 개최</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4118" target="_self">찾아가는 청년정책설명회 '청년정책 배달'</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3610" target="_self">안양1번가 청년공간 조성</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4496" target="_self">코어봉사단(청년봉사단)운영</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4497" target="_self">청년인재등록 플랫폼 운영</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3756" target="_self">역대 청년상 수상자</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=5143" target="_self">청년자율예산제</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a class="depth_text depth1_text" href="/youth/contents.do?key=3565" target="_self">청년일자리·창업</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/contents.do?key=3565" target="_self">청년일자리</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3629&amp;onlineResveNo=100" target="_self">청년 어학·자격시험 응시료 지원</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3631" target="_self">청년구직자 직장체험</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3632" target="_self">청년안양정착 일자리박람회 개최</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3633" target="_self">대학생 행정체험 연수</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3634" target="_self">청년 구직자 면접지원(정장, 헤어, 메이크업)</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3637" target="_self">대학 일자리센터 운영 지원</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3641" target="_self">AI·VR 면접체험관</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3669" target="_self">청년안(양)정(착) 취업학교</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4120" target="_self">청년도전 지원사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4498" target="_self">안양 AI취업 플랫폼</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=5247" target="_self">온오프 취업컨설팅</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=5411" target="_self">청년여성특화 취업 및 커리어코칭</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/contents.do?key=3566" target="_self">청년창업</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3644" target="_self">청년창업 특례보증</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3649" target="_self">청년기업 액셀러레이팅 지원</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3668" target="_self">청년창업 스케일업 안양</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3653" target="_self">청년창업기업 사업화컨설팅 지원</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4121" target="_self">안양청년창업펀드 2호 운영</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a class="depth_text depth1_text" href="/youth/contents.do?key=3567" target="_self">청년주거·문화복지</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/contents.do?key=3567" target="_self">청년주거</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3655" target="_self">[기존]안양 청년 전·월세보증금 대출이자 지원사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=5192" target="_self">[신규]안양 청년 전·월세보증금 대출이자 지원사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3664" target="_self">청년주택 지속 공급</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3665" target="_self">신혼부부 주택 매입 및 전세자금 대출이자 지원</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3656" target="_self">안양시 「청년 월세 지원」 사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=5420" target="_self">국토부 「청년 월세 지원사업」</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4123" target="_self">다둥이네 보금자리 지원</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4438" target="_self">안양 청년 이사비 지원 사업</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/contents.do?key=3559" target="_self">청년문화복지</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3558" target="_self">안양청년축제 개최</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3617" target="_self">청년기본소득</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3619" target="_self">안양 청년 학자금대출 연체자 신용회복 지원사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3620" target="_self">아이좋아 행복꾸러미</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3621" target="_self">청년내일저축계좌</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3623" target="_self">청년 정신건강 외래치료비 지원</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3817" target="_self">찾아가는 정신건강상담실 '청년 비상구'</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4176" target="_self">건강한 임신, 출산 지원사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4177" target="_self">일 가정 양립 보육 지원사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4178" target="_self">안양1번가 넘버원 페스티벌</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4179" target="_self">지역예술 활성화를 위한 문화예술사업 지원</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4180" target="_self">안양문화예술인 지원사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4501" target="_self">여성 1인가구 안심패키지 지원사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4503" target="_self">청춘을 잡아라 시즌2</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4504" target="_self">후기청소년 지원사업</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=4505" target="_self">자립준비청년 멘토 지원</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3622" target="_self">청년희망키움통장</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=5161" target="_self">청년대상 식생활 자립 실천교육</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a class="depth_text depth1_text" href="/youth/contents.do?key=5205" target="_self">청년공간</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/contents.do?key=5205" target="_self">안양청년1번가</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=5205" target="_self">이용안내</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=5206" target="_self">장소정보</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/selectBbsNttList.do?bbsNo=2344&amp;key=5207" target="_self">공지사항</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/contents.do?key=3573" target="_self">범계역 청년출구</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3573" target="_self">이용안내</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/contents.do?key=3574" target="_self">장소정보</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="/youth/selectBbsNttList.do?bbsNo=1189&amp;key=3577" target="_self">공지사항</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="https://www.aba.or.kr/content/contents.do?menuId=1153" target="_blank">청년오피스</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a class="depth_text depth1_text" href="/youth/youthInfoForm.do?key=4165" target="_self">청년인재등록</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="/youth/youthInfoForm.do?key=4165" target="_self">청년인재등록</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul> -->
+                        </div>
+                    </nav>
+                    <div class="menu_hide">
+                        <button class="menu_button" type="button">주메뉴 닫기</button>
+                    </div>
+                </div>
+                <div class="search">
+                    <h2 class="skip">검색</h2>
+                    <div class="search_open">
+                        <div class="wrap">
+                            <button class="search_btn" type="button">토글</button>
+                            <a href="javascript:void(0);" class="sitemap_anchor">사이트맵</a>
+                        </div>
+                    </div>
+                    <div class="search_content">
+                        <div class="wrap">
+                            <form action="/search/search.jsp" class="search_form" id="searchNeoForm" method="get" name="searchNeoForm">
+                                <fieldset>
+                                    <legend>검색</legend>
+                                    <input class="search_query" name="query" placeholder="검색어를 입력하세요" title="검색어" type="search" />
+                                    <input class="search_submit" type="submit" value="검색" />
+                                </fieldset>
+                            </form>
+                            <div class="search_close">
+                                <button class="search_btn" type="button">닫기</button>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        $(".search_btn").click(function() {
+                            if ($(".search").hasClass("active")) {
+                                $(".search").removeClass("active");
+                            } else {
+                                $(".search").addClass("active");
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+        </header>
+        <div id="container">
+            <main>
+                <div class="rowgroup rowgroup1">
+                    <div class="wrap">
+                        <div class="visual">
+                            <div class="visual_list">
+                                <div class="visual_item" style="background-image:url(/site/youth_2026/images/main/visual_01.png);">
+                                    <div class="visual_textbox">
+                                        <h3 class="visual_title">안양시 청년공간</h3>
+                                        <p class="visual_desc">청년의 성장과 가능성을 <br>지지하는 공간입니다!</p>
+                                    </div>
+                                </div>
+                                <div class="visual_item" style="background-image:url(/site/youth_2026/images/main/visual_01.png);">
+                                    <div class="visual_textbox">
+                                        <h3 class="visual_title">안양시 청년공간</h3>
+                                        <p class="visual_desc">청년의 성장과 가능성을 <br>지지하는 공간입니다!</p>
+                                    </div>
+                                </div>
+                                <div class="visual_item" style="background-image:url(/site/youth_2026/images/main/visual_01.png);">
+                                    <div class="visual_textbox">
+                                        <h3 class="visual_title">안양시 청년공간</h3>
+                                        <p class="visual_desc">청년의 성장과 가능성을 <br>지지하는 공간입니다!</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <style>
+                                
+                            </style>
+                            <div class="slide_control">
+                                <div class="direction">
+                                    <button type="button" class="slide_prev"><span class="skip">이전</span></button>
+                                    <button type="button" class="slide_next"><span class="skip">다음</span></button>
+                                </div>
+                                <div class="control_wrap">
+                                    <div class="countbox">
+                                        <span class="current">01</span>
+                                        <span class="gap">/</span>
+                                        <span class="total">03</span>
+                                    </div>
+                                    <div class="controlbox">
+                                        <button type="button" class="auto"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scroll_pointer">
+                                <span class="skip">Scroll Down</span>
+                            </div>
+                        </div>
+                        <div class="quick">
+                            <ul class="quick_list">
+                                <li class="quick_item n1">
+                                    <a href="javascript:void(0);" class="quick_anchor">
+                                        <em>찾아오는 길</em>
+                                    </a>
+                                </li>
+                                <li class="quick_item n2">
+                                    <a href="javascript:void(0);" class="quick_anchor">
+                                        <em>공간대관</em>
+                                    </a>
+                                </li>
+                                <li class="quick_item n3">
+                                    <a href="javascript:void(0);" class="quick_anchor">
+                                        <em>프로그램</em>
+                                    </a>
+                                </li>
+                                <li class="quick_item n4">
+                                    <a href="javascript:void(0);" class="quick_anchor">
+                                        <em>FAQ</em>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="quick_controls">
+                                <button type="button" class="btn_quick_close" title="패널 닫기">
+                                    <span class="blind">퀵메뉴 닫기</span>
+                                </button>
+                                
+                                <a href="#" class="btn_quick_top">
+                                    <span class="blind">페이지 상단으로 이동</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="rowgroup2">
+                    <div class="wrap">
+                        <div class="program">
+                            <h3 class="program_title"><em>프로그램</em></h3>
+                            <div class="program_list">
+                                <div class="program_item">
+                                    <a href="javascript:void(0);" class="program_link">
+                                        <div class="image_wrap" style="background-image:url(/site/youth_2026/images/main/program_img01.png)">
+                                            <span class="badge status_open">모집중</span>
+                                            <img src="" alt="요가와 명상 프로그램 이미지">
+                                        </div>
+                                        <div class="text_wrap">
+                                            <h4 class="title">요가와 명상을 통한<br>나와의 소통</h4>
+                                            <p class="date">2026.01.14. - 2026.01.30.</p>
+                                            <div class="more">자세히보기 <span class="ico_plus">+</span></div>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="program_item active">
+                                    <a href="javascript:void(0);" class="program_link">
+                                        <div class="image_wrap" style="background-image:url(/site/youth_2026/images/main/program_img02.png)">
+                                            <span class="badge status_open">모집중</span>
+                                            <img src="" alt="건강 요리 클래스 이미지">
+                                        </div>
+                                        <div class="text_wrap">
+                                            <h4 class="title">청년출구 건강 요리<br>클래스</h4>
+                                            <p class="date">2026.01.26. - 2026.02.06.</p>
+                                            <div class="more">자세히보기 <span class="ico_plus">+</span></div>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="program_item">
+                                    <a href="javascript:void(0);" class="program_link">
+                                        <div class="image_wrap" style="background-image:url(/site/youth_2026/images/main/program_img03.png)">
+                                            <span class="badge status_ready">예정</span>
+                                            <img src="" alt="우드카빙 클래스 이미지">
+                                        </div>
+                                        <div class="text_wrap">
+                                            <h4 class="title">나무숟가락 만들기<br>우드카빙 원데이클래스</h4>
+                                            <p class="date">2026.02.02. - 2026.02.13.</p>
+                                            <div class="more">자세히보기 <span class="ico_plus">+</span></div>
+                                        </div>
+                                    </a>
+                                </div>
+    
+                                <div class="program_item">
+                                    <a href="javascript:void(0);" class="program_link">
+                                        <div class="image_wrap" style="background-image:url(/site/youth_2026/images/main/program_img04.png)">
+                                            <span class="badge status_closed">마감</span>
+                                            <img src="" alt="나만의 시간 발견 프로그램 이미지">
+                                        </div>
+                                        <div class="text_wrap">
+                                            <h4 class="title">삶의 효율을 높여주는<br>나만의 시간 발견</h4>
+                                            <p class="date">2026.01.05. - 2026.01.16.</p>
+                                            <div class="more">자세히보기 <span class="ico_plus">+</span></div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="program_item">
+                                    <a href="javascript:void(0);" class="program_link">
+                                        <div class="image_wrap" style="background-image:url(/site/youth_2026/images/main/program_img01.png)">
+                                            <span class="badge status_open">모집중</span>
+                                            <img src="" alt="요가와 명상 프로그램 이미지">
+                                        </div>
+                                        <div class="text_wrap">
+                                            <h4 class="title">요가와 명상을 통한<br>나와의 소통</h4>
+                                            <p class="date">2026.01.14. - 2026.01.30.</p>
+                                            <div class="more">자세히보기 <span class="ico_plus">+</span></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="program_control">
+                                <div class="controlbox">
+                                    <button type="button" class="program_prev"><span class="skip">이전</span></button>
+                                    <button type="button" class="program_next"><span class="skip">다음</span></button>
+                                </div>
+                                <a href="javascript:void(0);" class="more_btn" title="[]게시판으로 이동">
+                                    <em>더보기</em>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="rowgroup3">
+                    <div class="wrap">
+                        <div class="board">
+                            <div class="board_header">
+                                <p class="board_subtitle">지금. 소식은?</p>
+                                <h3 class="board_title"><em>공지사항</em><span class="dot"></span></h3>
+                            </div>
+    
+                            <div class="board_contents clearfix">
+                                <div class="board_box notice">
+                                    <div class="box_header">
+                                        <h4 class="box_title">알림소식</h4>
+                                    </div>
+                                    
+                                    <ul class="notice_list">
+                                        <li class="notice_item">
+                                            <a href="javascript:void(0);" class="notice_link">
+                                                <span class="badge cate_operation">운영</span>
+                                                <p class="notice_tit">청년임대주택 입주자 모집 계획 안내(호계온천..</p>
+                                                <span class="notice_date">2026.03.12.</span>
+                                            </a>
+                                        </li>
+                                        <li class="notice_item">
+                                            <a href="javascript:void(0);" class="notice_link">
+                                                <span class="badge cate_recruit">채용</span>
+                                                <p class="notice_tit">[청년정책참여기구] 운영 매니저 채용</p>
+                                                <span class="notice_date">2026.03.06.</span>
+                                            </a>
+                                        </li>
+                                        <li class="notice_item">
+                                            <a href="javascript:void(0);" class="notice_link">
+                                                <span class="badge cate_data">자료</span>
+                                                <p class="notice_tit">2026년 꼭 알아야 할 청년정책</p>
+                                                <span class="notice_date">2026.01.14.</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="javascript:void(0);" class="btn_more"><span class="skip">알림소식 더보기</span></a>
+                                </div>
+    
+                                <div class="board_box schedule">
+                                    <div class="box_header">
+                                        <h4 class="box_title">일정안내</h4>
+                                        <div class="month_nav">
+                                            <button type="button" class="btn_prev"><span class="blind">이전 달</span></button>
+                                            <strong class="current_month">2026. 03</strong>
+                                            <button type="button" class="btn_next"><span class="blind">다음 달</span></button>
+                                        </div>
+                                        <a href="javascript:void(0);" class="btn_more"><span class="blind">일정안내 더보기</span></a>
+                                    </div>
+                                    
+                                    <div class="week_calendar">
+                                        <ul class="week_list">
+                                            <li class="day_item sun"><a href="javascript:void(0);" class="day_link"><span class="day">일</span><span class="date">15</span></a></li>
+                                            <li class="day_item on"><a href="javascript:void(0);" class="day_link" data-has-event="true"><span class="day">월</span><span class="date">16</span></a></li>
+                                            <li class="day_item"><a href="javascript:void(0);" class="day_link" data-has-event="true"><span class="day">화</span><span class="date">17</span></a></li>
+                                            <li class="day_item"><a href="javascript:void(0);" class="day_link"><span class="day">수</span><span class="date">18</span></a></li>
+                                            <li class="day_item"><a href="javascript:void(0);" class="day_link" data-has-event="true"><span class="day">목</span><span class="date">19</span></a></li>
+                                            <li class="day_item"><a href="javascript:void(0);" class="day_link"><span class="day">금</span><span class="date">20</span></a></li>
+                                            <li class="day_item sat"><a href="javascript:void(0);" class="day_link"><span class="day">토</span><span class="date">21</span></a></li>
+                                            <li class="day_item sun"><a href="javascript:void(0);" class="day_link"><span class="day">일</span><span class="date">22</span></a></li>
+                                            <li class="day_item"><a href="javascript:void(0);" class="day_link"><span class="day">월</span><span class="date">23</span></a></li>
+                                            <li class="day_item"><a href="javascript:void(0);" class="day_link"><span class="day">화</span><span class="date">24</span></a></li>
+                                            <li class="day_item"><a href="javascript:void(0);" class="day_link"><span class="day">수</span><span class="date">25</span></a></li>
+                                        </ul>
+                                    </div>
+    
+                                    <ul class="schedule_list">
+                                        <li class="schedule_item">
+                                            <span class="sch_date">03.16.</span>
+                                            <p class="sch_tit">자립준비청년 멘토와의 만남</p>
+                                        </li>
+                                        <li class="schedule_item">
+                                            <span class="sch_date">03.16.</span>
+                                            <p class="sch_tit">2분기 안양시 청년1번가 홍보 서포터즈 발대식</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rowgroup4">
+                    <div class="wrap">
+                        <section class="activity_wrap">
+                            <div class="youtube_area">
+                                <span class="label_youtube">유튜브</span>
+                                <div class="youtubue_frame" title="유튜브 영상 재생" data-youtube-id="Ggp0OjzVAh0" style="background-image:url(/site/youth_2026/images/main/youtube_img.png)">
+                                    <div class="youtube_preview">
+                                        <div class="color_overlay"></div>
+                                        <button type="button" class="play_btn" aria-label="유튜브 영상 재생">
+                                            <span class="skip">유튜브 영상 재생</span>
+                                        </button>
+                                        <div class="desc_box">
+                                            <p class="desc_text">
+                                                <i class="ico_bell"></i> 2025년 안양시 청년활동 워크숍(행사일 251223)
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="youtube_player" hidden></div>
+                                </div>
+                            </div>
+                            <div class="gallery_area">
+                                <div class="gallery_head">
+                                    <div class="title_box">
+                                        <span class="sub_tit">포토갤러리</span>
+                                        <h3 class="main_tit">청년활동</h3>
+                                    </div>
+                                    <style>
+                                        
+                                    </style>
+                                    <div class="gallery_controls">
+                                        <button type="button" class="gallery_btn prev">
+                                            <span class="skip">이전</span>
+                                        </button>
+                                        <button type="button" class="gallery_btn next">
+                                            <span class="skip">다음</span>
+                                        </button>
+                                    </div>
+                                    <a href="javascript:void(0);" title="포토갤러리 청년활동 페이지로 이동" class="gallery_more_btn">
+                                        <span class="skip">더보기</span>
+                                    </a>
+                                </div>
+                                
+                                <div class="gallery_list clearfix">
+                                    <div class="gallery_item">
+                                        <a href="#none" class="gallery_anchor">
+                                            <div class="image_box"><img src="/site/youth_2026/images/main/gallery_img01.png" alt=""></div>
+                                            <p class="tit">2025 청년활동 워크숍 개최</p>
+                                            <span class="date">2026.01.08.</span>
+                                        </a>
+                                    </div>
+                                    <div class="gallery_item">
+                                        <a href="#none" class="gallery_anchor">
+                                            <div class="image_box"><img src="/site/youth_2026/images/main/gallery_img02.png" alt=""></div>
+                                            <p class="tit">2025 경기도 청년미래포럼 참여</p>
+                                            <span class="date">2025.11.26.</span>
+                                        </a>
+                                    </div>
+                                    <div class="gallery_item">
+                                        <a href="#none" class="gallery_anchor">
+                                            <div class="image_box"><img src="/site/youth_2026/images/main/gallery_img01.png" alt=""></div>
+                                            <p class="tit">2025 청년활동 워크숍 개최</p>
+                                            <span class="date">2026.01.08.</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="rowgroup5">
+                    <div class="wrap">
+                        <style>
+                            
+                        </style>
+
+                        <div class="space_header">
+                            <h3 class="space_title">
+                                <img src="/site/youth_2026/images/main/space_title.png" alt=""/>
+                            </h3>
+                            <p class="space_text">청년들의 자기주도적 활동을 지원하고, 청년 간 소통·교류를 활성화하기 위한 활동 공간을 설치·운영합니다.</p>
+                        </div>
+
+                        <div class="space_list">
+
+                            <div class="space_item type_exit">
+                                <div class="logo_box">
+                                    <img src="/site/youth_2026/images/main/space_logo.png" alt="범계역 청년출구">
+                                </div>
+                            </div>
+
+                            <div class="space_item type_anyang">
+                                <div class="logo_box">
+                                    <img src="/site/youth_2026/images/main/anyang_spacelogo.png" alt="ANY:1 안양청년1번가">
+                                </div>
+                                <div class="info_box">
+                                    <dl class="info_list">
+                                        <div class="info_row">
+                                            <dt>이용시간</dt>
+                                            <dd>월요일 ~ 금요일 10:00~21:00<br>/ 토요일 10:00~ 16:00 (매주 일요일·공휴일 휴관)</dd>
+                                        </div>
+                                        <div class="info_row">
+                                            <dt>주소</dt>
+                                            <dd>안양시 만안구 장내로143번길 16(안양동), 안양청년1번가</dd>
+                                        </div>
+                                    </dl>
+
+                                    <a href="#none" title="자세히 보기" class="btn_more">자세히 <i class="icon_arrow"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer id="footer">
+            <div class="footer_banner">
+                <div class="wrap">
+                    
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="footer_top">
+                    <a href="#wrapper">위로</a>
+                </div>
+                <div class="footer_content">
+                    
+                    <div class="footer_nav">
+                        <div class="footer_nav_link">
+                            <ul class="clearfix">
+                                <li class="privacy"><a href="/main/contents.do?key=865">개인정보처리방침</a></li>
+                                <li><a href="/main/contents.do?key=872">저작권정책</a></li>
+                                <li><a href="/main/contents.do?key=305" target="_blank" title="새창">찾아오시는길</a></li>
+                                <li><a href="/main/contents.do?key=865" target="_blank" title="새창">홈페이지 개선건의</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer_info">
+                        <div class="footer_info_item">
+                            <span class="branch_name">[범계역청년출구]</span>
+                            <span class="info_group address">
+                                <em class="label">주소</em>
+                                <span class="text">: 경기 안양시 동안구 동안로 130 범계역광장 내</span>
+                            </span>
+                            
+                            <span class="info_group phone">
+                                <em class="label">대표전화</em>
+                                <span class="text"> : 031-476-9371</span>
+                            </span>
+                        </div>
+                        <style>
+                            
+                        </style>
+                        <div class="footer_info_item">
+                            <span class="branch_name">[안양청년1번가]</span>
+                            <span class="info_group address">
+                                <em class="label">주소:</em>
+                                <span class="text">안양시 만안구 장내로143번길 16(안양동)</span>
+                            </span>
+                            
+                            <span class="info_group phone">
+                                <em class="label">대표전화</em>
+                                <span class="text"> : 031-441-5279</span>
+                            </span>
+                        </div>
+                        <!-- <address>우)14053 경기도 안양시 동안구 시민대로 235(관양동)<br />
+                            <mark class="tel">전화 031-8045-7000</mark> 팩스 031-8045-6500
+
+                        </address> -->
+                    </div>
+                    <p class="copyright">COPYRIGHT ⓒ ANYANG CITY.ALL RIGHTS RESERVED.</p>
+                    <!--<div class="footer_site">
+                        <ul class="footer_site_list clearfix">
+                            <li class="footer_site_item">
+                                <button class="footer_site_btn" type="button">구청/동행정복지센터</button>
+                                <div class="footer_site_content">
+                                    <strong>구청/동행정복지센터</strong>
+                                    <div class="footer_site_link">
+                                        <ul>
+                                            <li><a href="https://www.anyang.go.kr/manan/index.do" target="_blank" title="새창">만안구청홈페이지</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=977" target="_blank" title="새창">안양1동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=978" target="_blank" title="새창">안양2동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=979" target="_blank" title="새창">안양3동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=980" target="_blank" title="새창">안양4동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=981" target="_blank" title="새창">안양5동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=982" target="_blank" title="새창">안양6동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=983" target="_blank" title="새창">안양7동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=984" target="_blank" title="새창">안양8동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=985" target="_blank" title="새창">안양9동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=986" target="_blank" title="새창">석수1동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=987" target="_blank" title="새창">석수2동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=988" target="_blank" title="새창">충훈동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=989" target="_blank" title="새창">박달동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=990" target="_blank" title="새창">호현동</a></li>
+                                        </ul>
+                                        <ul class="margin_t_20">
+                                            <li><a href="https://www.anyang.go.kr/dongan/index.do" target="_blank" title="새창">동안구청홈페이지</a></li>
+                                            <li><a href="https://www.anyang.go.kr/manan/contents.do?key=1180" target="_blank" title="새창">비산1동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1181" target="_blank" title="새창">비산2동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1182" target="_blank" title="새창">비산3동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1183" target="_blank" title="새창">부흥동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1184" target="_blank" title="새창">달안동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1185" target="_blank" title="새창">관양동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1186" target="_blank" title="새창">인덕원동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1187" target="_blank" title="새창">부림동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1188" target="_blank" title="새창">평촌동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1189" target="_blank" title="새창">평안동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1190" target="_blank" title="새창">귀인동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1191" target="_blank" title="새창">호계1동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1192" target="_blank" title="새창">호계2동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1193" target="_blank" title="새창">호계3동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1194" target="_blank" title="새창">범계동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1195" target="_blank" title="새창">신촌동</a></li>
+                                            <li><a href="https://www.anyang.go.kr/dongan/contents.do?key=1196" target="_blank" title="새창">갈산동</a></li>
+                                        </ul>
+                                    </div>
+                                    <button class="footer_site_close" type="button">닫기</button>
+                                </div>
+                            </li>
+                            <li class="footer_site_item">
+                                <button class="footer_site_btn" type="button">안양시 운영</button>
+                                <div class="footer_site_content active">
+                                    <strong>안양시 운영 선택</strong>
+                                    <div class="footer_site_link">
+                                        <ul>
+                                            <li><a href="https://www.aycouncil.go.kr/index.jsp" target="_blank" title="새창">안양시의회</a></li>
+                                            <li><a href="https://learning.anyang.go.kr/" target="_blank" title="새창">평생학습원</a></li>
+                                            <li><a href="https://water.anyang.go.kr" target="_blank" title="새창">상하수도</a></li>
+                                            <li><a href="https://www.anyang.go.kr/forest/index.do" target="_blank" title="새창">안양형산림복지</a></li>
+                                            <li><a href="https://learning.anyang.go.kr/MW" target="_blank" title="새창">만안평생학습센터</a></li>
+                                            <li><a href="https://learning.anyang.go.kr/DW" target="_blank" title="새창">동안평생학습센터</a></li>
+                                            <li><a href="https://bis.anyang.go.kr/" target="_blank" title="새창">스마트도시정책</a></li>
+                                            <li><a href="https://www.anyang.go.kr/river/index.do" target="_blank" title="새창">안양천생태이야기관</a></li>
+                                            <li><a href="http://tv.anyang.go.kr/" target="_blank" title="새창">안녕,안양</a></li>
+                                            <li><a href="https://parkingsms.anyang.go.kr" target="_blank" title="새창">주정차단속 문자알림 서비스</a></li>
+                                            <li><a href="https://www.anyang.go.kr/se/index.do" target="_blank" title="새창">사회적경제센터</a></li>
+                                            <li><a href="https://www.anyang.go.kr/main/contents.do?key=417" target="_blank" title="새창">노사민정협의회</a></li>
+                                            <li><a href="https://www.anyang.go.kr/amrc/index.do" target="_blank" title="새창">안양상권활성화센터</a></li>
+                                            <li><a href="https://www.anyang.go.kr/reserve/index.do" target="_blank" title="새창">통합예약</a></li>
+                                            <li><a href="https://www.anyang.go.kr/health/index.do" target="_blank" title="새창">안양시보건소
+                                            <li>
+                                            <li><a href="https://lib.anyang.go.kr/intro/index.do" target="_blank" title="새창">시립도서관
+                                            <li>
+                                            <li><a href="https://www.anyang.go.kr/tour/index.do" target="_blank" title="새창">내맘에안양(관광)</a></li>
+                                            <li><a href="https://www.anyang.go.kr/newtown/index.do" target="_blank" title="새창">도시정비사업</a></li>
+                                            <li><a href="https://learning.anyang.go.kr/MS" target="_blank" title="새창">만안노인복지회관</a></li>
+                                            <li><a href="https://learning.anyang.go.kr/DS" target="_blank" title="새창">동안노인복지회관</a></li>
+                                            <li><a href="https://www.anyang.go.kr/smartium/index.do" target="_blank" title="새창">안양스마T움축제</a></li>
+                                            <li><a href="https://photo.anyang.go.kr" target="_blank" title="새창">역사포토갤러리</a></li>
+                                            <li><a href="https://www.anyang.go.kr/jumin/index.do" target="_blank" title="새창">주민자치센터</a></li>
+                                            <li><a href="https://www.anyang.go.kr/job/index.do" target="_blank" title="새창">일자리센터</a></li>
+                                            <li><a href="https://www.anyang.go.kr/archi/index.do" target="_blank" title="새창">안양건축문화제</a></li>
+                                            <li><a href="/future/index.do" target="_blank" title="새창">안양미래교육</a></li>
+                                            <li><a href="/5060/index.do" target="_blank" title="새창">베이비부머지원센터</a></li>
+                                            <li><a href="/animal/index.do" target="_blank" title="새창">동물보호복지플랫폼</a></li>
+                                        </ul>
+                                    </div>
+                                    <button class="footer_site_close" type="button">닫기</button>
+                                </div>
+                            </li>
+                            <li class="footer_site_item">
+                                <button class="footer_site_btn" type="button">안양시 관련기관</button>
+                                <div class="footer_site_content">
+                                    <strong>안양시 관련기관 선택</strong>
+                                    <div class="footer_site_link">
+                                        <ul>
+                                            <li><a href="http://www.aba.or.kr" target="_blank" title="새창">안양산업진흥원</a></li>
+                                            <li><a href="https://www.aysilver.kr/" target="_blank" title="새창">안양시노인종합복지관</a></li>
+                                            <li><a href="http://www.ayf.or.kr/ayf/main/main.do" target="_blank" title="새창">안양시청소년재단</a></li>
+                                            <li><a href="http://www.ayf.or.kr/manan/main/main.do" target="_blank" title="새창">만안청소년수련관</a></li>
+                                            <li><a href="http://www.ayf.or.kr/dongan/main/main.do" target="_blank" title="새창">동안청소년수련관</a></li>
+                                            <li><a href="http://www.ayf.or.kr/life/main/main.do" target="_blank" title="새창">만안청소년문화의집</a></li>
+                                            <li><a href="http://www.ayf.or.kr/way/main/main.do" target="_blank" title="새창">석수청소년문화의집</a></li>
+                                            <li><a href="http://www.ayf.or.kr/bakdal/main/main.do" target="_blank" title="새창">박달청소년문화의집</a></li>
+                                            <li><a href="http://www.ayf.or.kr/hogye/main/main.do" target="_blank" title="새창">호계청소년문화의집</a></li>
+                                            <li><a href="http://www.ayf.or.kr/pyengchon/main/main.do" target="_blank" title="새창">평촌청소년문화의집</a></li>
+                                            <li><a href="http://www.ayf.or.kr/gwanyang/main/main.do" target="_blank" title="새창">관양청소년문화의집</a></li>
+                                            <li><a href="http://www.ayf.or.kr/ay1388/main/main.do" target="_blank" title="새창">청소년상담복지센터</a></li>
+                                            <li><a href="http://www.ayf.or.kr/shelter/main/main.do" target="_blank" title="새창">일시청소년쉼터 민들레뜨락</a></li>
+                                            <li><a href="http://www.ayac.or.kr" target="_blank" title="새창">안양문화예술재단</a></li>
+                                            <li><a href="https://www.xn--zb0bp61a5lav81b7sq.com/" target="_blank" title="새창">부흥종합사회복지관</a></li>
+                                            <li><a href="http://bisansw.or.kr/" target="_blank" title="새창">비산종합사회복지관</a></li>
+                                            <li><a href="http://www.aysports.or.kr" target="_blank" title="새창">안양시체육회</a></li>
+                                            <li><a href="http://anyang1308.or.kr" target="_blank" title="새창">안양시장애인체육회</a></li>
+                                            <li><a href="https://www.auc.or.kr/base/main/view" target="_blank" title="새창">안양도시공사</a></li>
+                                            <li><a href="http://www.aytalent.or.kr" target="_blank" title="새창">안양시인재육성장학재단</a></li>
+                                            <li><a href="http://www.yhealing.or.kr" target="_blank" title="새창">안양YWCA가정폭력상담소</a></li>
+                                            <li><a href="http://yulmok.net" target="_blank" title="새창">율목종합사회복지관</a></li>
+                                            <li><a href="http://www.asrc.or.kr" target="_blank" title="새창">수리장애인종합복지관</a></li>
+                                            <li><a href="http://anyanghotline.or.kr/" target="_blank" title="새창">안양여성의전화</a></li>
+                                            <li><a href="http://www.anyangcenter.or.kr" target="_blank" title="새창">안양여성인력개발센터</a></li>
+                                            <li><a href="http://www.aycvc.or.kr" target="_blank" title="새창">안양지역범죄피해자지원센터</a></li>
+                                            <li><a href="http://www.agucfc.or.kr" target="_blank" title="새창">안양군포의왕 공동급식지원센터</a></li>
+                                            <li><a href="http://www.familynet.or.kr/fn_areacenter/main/index.do?ci_domain=anyang" target="_blank" title="새창">안양시 가족센터</a></li>
+                                            <li><a href="http://www.aycteducare.go.kr" target="_blank" title="새창">육아종합지원센터 </a></li>
+                                            <li><a href="http://www.telepsy.co.kr/" target="_blank" title="새창">안양시정신건강복지센터</a></li>
+                                            <li><a href="http://www.anyang1365.or.kr/" target="_blank" title="새창">안양시자원봉사센터</a></li>
+                                        </ul>
+                                    </div>
+                                    <button class="footer_site_close" type="button">닫기</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>-->
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        $(function () {
+            $('.youtubue_frame .play_btn').on('click', function () {
+                var $frame = $(this).closest('.youtubue_frame');
+                var videoId = $frame.data('youtube-id');
+                if (!videoId || $frame.data('youtube-loaded')) {
+                    return;
+                }
+                $frame.data('youtube-loaded', true);
+                var $player = $frame.find('.youtube_player');
+                $frame.find('.youtube_preview').hide();
+                $player.removeAttr('hidden').html(
+                    '<iframe src="https://www.youtube.com/embed/' + videoId + '?autoplay=1&amp;rel=0&amp;modestbranding=1" title="2025년 안양시 청년활동 워크숍 영상" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+                );
+            });
+        });
+    </script>
+</body>
+</html>

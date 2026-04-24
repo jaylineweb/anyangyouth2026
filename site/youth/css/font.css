@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* Cafe24 */
+@font-face{
+    font-family: 'Cafe24';
+    font-weight: 600;
+    src: url("../fonts/Cafe24Ssurround.woff2") format('woff2'),
+    url("../fonts/Cafe24Ssurround.woff") format('woff');
+}
+
+/* 구름산스 */
+@font-face{
+    font-family: 'goorm';
+    font-weight: 300;
+    src: url("../fonts/goorm-sans-regular.woff2") format('woff2'),
+    url("../fonts/goorm-sans-regular.woff") format('woff');
+}
+@font-face{
+    font-family: 'goorm';
+    font-weight: 400;
+    src: url("../fonts/goorm-sans-medium.woff2") format('woff2'),
+    url("../fonts/goorm-sans-medium.woff") format('woff');
+}
+@font-face{
+    font-family: 'goorm';
+    font-weight: 600;
+    src: url("../fonts/goorm-sans-bold.woff2") format('woff2'),
+    url("../fonts/goorm-sans-bold.woff") format('woff');
+}
+
+/* Montserrat */
+@font-face{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    src: url("../fonts/Montserrat-Bold.woff2") format('woff2'),
+    url("../fonts/Montserrat-Bold.woff") format('woff');
+}

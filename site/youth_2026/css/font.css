@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* SB Aggro */
+@font-face{
+    font-family: 'SBAggro';
+    font-weight: 300;
+    src: url("../fonts/SBAggroL.woff2") format('woff2'),
+    url("../fonts/SBAggroL.woff") format('woff');
+}
+
+@font-face{
+    font-family: 'SBAggro';
+    font-weight: 500;
+    src: url("../fonts/SBAggroM.woff2") format('woff2'),
+    url("../fonts/SBAggroM.woff") format('woff');
+}
+
+@font-face{
+    font-family: 'SBAggro';
+    font-weight: 600;
+    src: url("../fonts/SBAggroB.woff2") format('woff2'),
+    url("../fonts/SBAggroB.woff") format('woff');
+}
+
+
+/* S Core Dream */
+@font-face{
+    font-family: 'S-CoreDream';
+    font-weight: 300;
+    src: url("../fonts/SCDream3.woff2") format('woff2'),
+    url("../fonts/SCDream3.woff") format('woff');
+}
+@font-face{
+    font-family: 'S-CoreDream';
+    font-weight: 400;
+    src: url("../fonts/SCDream4.woff2") format('woff2'),
+    url("../fonts/SCDream4.woff") format('woff');
+}
+@font-face{
+    font-family: 'S-CoreDream';
+    font-weight: 500;
+    src: url("../fonts/SCDream5.woff2") format('woff2'),
+    url("../fonts/SCDream5.woff") format('woff');
+}
+@font-face{
+    font-family: 'S-CoreDream';
+    font-weight: 600;
+    src: url("../fonts/SCDream6.woff2") format('woff2'),
+    url("../fonts/SCDream6.woff") format('woff');
+}
