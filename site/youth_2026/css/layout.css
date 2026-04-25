@@ -71,7 +71,7 @@ body {background-color:#fff; color:#2e2e2e; font-size:16px; line-height:1.5em; f
 .satisfaction .kogl_open{padding:24px 3% 20px;min-height:75px;box-sizing:border-box;}
 .satisfaction .kogl_open img{float:left;margin-top:-4px;margin-right:20px}
 .satisfaction .satisfaction_list{padding:20px 3%;background:#f7f7f7}
-.satisfaction .question{padding:2px 0 2px 36px;background:url(/common/images/program/comment_smile.png) no-repeat left top;color:#000}
+.satisfaction .question{padding:2px 0 2px 36px;background:url(../../../common/images/program/comment_smile.png) no-repeat left top;color:#000}
 .satisfaction .satisfaction_list label{vertical-align:middle}
 .satisfaction .satisfaction_list .input_radio{display:block;margin-top:8px}
 .satisfaction .satisfaction_list .input_radio input[type=radio]{width:16px;height:16px}
@@ -113,7 +113,7 @@ body {background-color:#fff; color:#2e2e2e; font-size:16px; line-height:1.5em; f
 
 /* 만족도 조사 */
 #container .satisfaction {padding:20px 2%; background-color:#f7f7f7;}
-#container .satisfaction p {margin-bottom:10px; padding-bottom:7px; padding-left:36px; background:url('/common/images/program/comment_smile.png') no-repeat left top; color:#000; font-weight:600; font-size:16px; line-height:21px;}
+#container .satisfaction p {margin-bottom:10px; padding-bottom:7px; padding-left:36px; background:url('../../../common/images/program/comment_smile.png') no-repeat left top; color:#000; font-weight:600; font-size:16px; line-height:21px;}
 #container .satisfaction .evaluation ul li {float:left; margin-right:25px;}
 #container .satisfaction .evaluation ul li label {display:inline-block; position:relative; font-size:16px; line-height:18px; vertical-align:middle;}
 #container .satisfaction .evaluation ul li input[type='radio'] {width:16px; height:16px; margin-right:5px;}

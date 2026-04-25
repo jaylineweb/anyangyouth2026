@@ -39,11 +39,11 @@
 .visual .visual_control .prev {left: 230px;}
 .visual .visual_control .next {right: 230px;}
 
-.visual .visual_control button:before {display: block;position: absolute;top: calc(50% - 9px);left: calc(50% - 7px);width: 14px;height: 18px;background-image: url(/site/youth/images/main/visual_icon.png);background-position: 0 50%;background-size: 96px 18px;}
+.visual .visual_control button:before {display: block;position: absolute;top: calc(50% - 9px);left: calc(50% - 7px);width: 14px;height: 18px;background-image: url(../images/main/visual_icon.png);background-position: 0 50%;background-size: 96px 18px;}
 .visual .visual_control .btn_wrap > button:hover{top: -5px;width: 70px;height: 70px;/* transform: scale(1.2); */background-color:#545f8c;}
 .visual .visual_control .prev:hover {left: 225px;}
 .visual .visual_control .next:hover {right: 225px;}
-.visual .visual_control .btn_wrap > button:hover:before{background-image:url(/site/youth/images/main/visual_icon-w.png);background-size: cover;}
+.visual .visual_control .btn_wrap > button:hover:before{background-image:url(../images/main/visual_icon-w.png);background-size: cover;}
 .visual .visual_control .next:before {transform: rotate(180deg);}
 .visual .visual_control .auto:before {left:10px;width: 12px;background-position-x: 98%;}
 .visual .visual_control .auto.slick-play:before{left:13px;}
@@ -64,7 +64,7 @@
 .visual_open .visual .visual_all{opacity:1; visibility:inherit;}
 .visual .visual_all .visual_all_box{position:absolute; top:50%; left:50%; width:1480px; height:100%; max-height:897px; margin:auto; padding:66px 58px; border-radius:30px; background-color:#fff; transform:translate(-50%,-50%); text-align:center;box-sizing: border-box;}
 .visual .visual_all .visual_all_title{display:inline-block; position:relative; padding-left:52px; color:#1e1e1e; font-size:30px; line-height:34px; letter-spacing:-0.025em; vertical-align:top; font-weight:500; font-family:'nexen';}
-.visual .visual_all .visual_all_title:before{display:block; position:absolute; top:-3px; left:0; width:35px; height:37px; background:url('/site/youth/images/main/visual_more_all.png') no-repeat 0 0 / cover;}
+.visual .visual_all .visual_all_title:before{display:block; position:absolute; top:-3px; left:0; width:35px; height:37px; background:url('../images/main/visual_more_all.png') no-repeat 0 0 / cover;}
 .visual .visual_all .visual_all_title span{color:#c62c40; font-weight:700;}
 .visual .visual_all .visual_all_title em{font-weight:700;}
 .visual .visual_all .visual_all_inner{overflow-x:hidden; overflow-y:auto; position:relative; height:calc(88% + 25px); margin-top:48px; font-size:0; line-height:0;}
@@ -75,7 +75,7 @@
 .visual .visual_all .visual_all_list .visual_all_item{display:inline-block; overflow:hidden; width:calc(50% - 30px); margin:15px 12px; border-radius:20px;}
 .visual .visual_all .visual_all_list .visual_all_item a{display:block; position:relative; padding:24.45%; background-repeat:no-repeat; background-size:cover; background-position:center;}
 .visual .visual_all .visual_close{position:absolute; top:50px; right:70px; width:60px; height:60px; border-radius:20px; background-color:#0089d0;}
-.visual .visual_all .visual_close:before{display:block; position:absolute; top:0; left:0; right:0; bottom:0; width:17px; height:17px; margin:auto; background:url('/site/youth/images/main/visual_close.png') no-repeat 0 0 / cover;}
+.visual .visual_all .visual_close:before{display:block; position:absolute; top:0; left:0; right:0; bottom:0; width:17px; height:17px; margin:auto; background:url('../images/main/visual_close.png') no-repeat 0 0 / cover;}
 .visual_open #header,
 .visual_open .gnb,
 .visual_open #footer{z-index:10;}
@@ -231,7 +231,7 @@
 .shortcut_item .shortcut_anchor:hover:before{background-color: #fff;background-image: linear-gradient(#fff, #fff), linear-gradient(to right, #7683d9 0%, #d8a0fe 100%);background-origin: border-box;background-clip: content-box, border-box;box-shadow:10px 17px 20px 0 rgba(91,119,154,0.15);border-image-slice: 1;}
 .shortcut_item .shortcut_anchor span{display: block;position: relative;padding-top: 117px;font-size: 18px;line-height:22px;color:#444b5d;font-family: 'goorm';font-weight:400;box-sizing: border-box;letter-spacing: -0.05em;}
 .shortcut_item .shortcut_anchor:hover span{color:#592eaf;font-weight:600;}
-.shortcut_item .shortcut_anchor span:before{display:block;position:absolute;top: 49px;left:calc(50% - 29px);width:57px;height:57px;background: url(/site/youth/images/main/shortcut_icon.png) -9px 50% no-repeat;}
+.shortcut_item .shortcut_anchor span:before{display:block;position:absolute;top: 49px;left:calc(50% - 29px);width:57px;height:57px;background: url(../images/main/shortcut_icon.png) -9px 50% no-repeat;}
 .shortcut_item:nth-child(2) .shortcut_anchor span:before{background-position-x: -107px;}
 .shortcut_item:nth-child(3) .shortcut_anchor span:before{background-position-x: -197px;}
 .shortcut_item:nth-child(4) .shortcut_anchor span:before{background-position-x: -305px;}
@@ -298,13 +298,13 @@
 .notice_list{height: 250px;padding-top: 33px;padding-left: 10px;}
 /*.rowgroup2 .notice_list .slick-slide {width: 270px!important;}*/
 .rowgroup2 .notice_item{display: inline-block;position:relative;width: 270px;!important;/* margin-right: 35px; */padding-right: 35px;box-sizing: border-box;}
-.rowgroup2 .notice_item:before{position:absolute;top: 30px;right: 18px;width:10px;height:17px;background: url(/site/youth/images/main/notice_icon2.png) 0 50% no-repeat;}
+.rowgroup2 .notice_item:before{position:absolute;top: 30px;right: 18px;width:10px;height:17px;background: url(../images/main/notice_icon2.png) 0 50% no-repeat;}
 .rowgroup2 .notice_item:after{position:absolute;bottom: 0;left:0;width:100%;height:1px;background-color:#e7ecf1;}
 
 .rowgroup2 .notice_item a.notice_link:hover{text-decoration-line:none;}
 .rowgroup2 .notice_item .notice_link:before{display:block;position:absolute;top: 0;left: 0;width: calc(100% - 35px);height:2px;background:#333;}
 .rowgroup2 .notice_item .date{display: block;position:relative;margin-top: 34px;padding-left: 25px;font-size: 16px;line-height: 30px;color: #8865cf;font-family: 'Montserrat';text-decoration-line: none!important;}
-.rowgroup2 .notice_item .date:before{display:block;position:absolute;top: 7px;left: 3px;width:16px;height:16px;background: url(/site/youth/images/main/clock.png) 0 0 no-repeat;}
+.rowgroup2 .notice_item .date:before{display:block;position:absolute;top: 7px;left: 3px;width:16px;height:16px;background: url(../images/main/clock.png) 0 0 no-repeat;}
 .rowgroup2 .notice_item .title{position:relative;padding-top: 26px;padding-left: 3px;font-size: 20px;line-height: 30px;color: #333948;font-family: 'goorm';letter-spacing: -0.025em;}
 
 .notice_link:hover .title{text-decoration-color:#9f9f9f;text-decoration-line: underline;color:#000;}
@@ -314,13 +314,13 @@
 .notice_link:hover p{text-decoration-color:#bfc3cc;text-decoration-line: underline;}
 .notice_link:hover .date{/* text-decoration-color: transparent; *//* text-decoration-line: none!important; */}
 .notice_control{position: absolute;top: 0;right: 34px;width: 125px;height: 42px;}
-.notice_control button{display:inline-block;width:11px;height:20px;background: url(/site/youth/images/main/notice_arrow.png) 0 50% no-repeat;background-size:68px 20px;}
+.notice_control button{display:inline-block;width:11px;height:20px;background: url(../images/main/notice_arrow.png) 0 50% no-repeat;background-size:68px 20px;}
 .notice_control button.notice_prev{position: relative;margin-right: 50px;/* padding-right:25px; */background-position-x: 0;box-sizing: border-box;}
 .notice_control button.notice_next{margin-right: 0;background-position-x: 35%;}
 .notice_control button.notice_prev:before{display:block;position:absolute;top: -3px;right: -25px;width:1px;height: 26px;background: #cbd3da;}
 .notice_control button.notice_prev:hover{background-position-x: 66%;}
 .notice_control button.notice_next:hover{background-position-x: 100%;}
-.notice_control .more {position: absolute;top: -9px;right: 0;width:39px;height:39px;border-radius:50%;background: #ecf0f6 url(/site/youth/images/main/notice_icon1.png) 56% no-repeat;background-size:16px 16px;transition-property: transform;transition-duration: 0.3s;}
+.notice_control .more {position: absolute;top: -9px;right: 0;width:39px;height:39px;border-radius:50%;background: #ecf0f6 url(../images/main/notice_icon1.png) 56% no-repeat;background-size:16px 16px;transition-property: transform;transition-duration: 0.3s;}
 
 .rowgroup2 .activity{position: relative;width: 579px;margin-left: -46px;}
 
@@ -334,17 +334,17 @@
     transition-duration: 0.3s}
 .activity_item .notice_link:hover .activity_img img {  transform: scale(1.1)}
 .activity_control{position: absolute;top: 0;right: 23px;width: 125px;height: 42px;}
-.activity_control button{display:inline-block;width:11px;height:20px;background: url(/site/youth/images/main/notice_arrow.png) 0 50% no-repeat;background-size:68px 20px;}
+.activity_control button{display:inline-block;width:11px;height:20px;background: url(../images/main/notice_arrow.png) 0 50% no-repeat;background-size:68px 20px;}
 .activity_control button.activity_prev{position:relative;margin-right: 50px;background-position-x: 0;}
 .activity_control button.activity_prev:before{display:block;position:absolute;top: -3px;right: -25px;width:1px;height: 26px;background: #cbd3da;}
 .activity_control button.activity_next{margin-right: 0;background-position-x: 35%;}
 .activity_control button.activity_prev:hover{background-position-x: 66%;}
 .activity_control button.activity_next:hover{background-position-x: 100%;}
-.activity_control .more {position: absolute;top: -9px;right: 0;width:39px;height:39px;border-radius:50%;background: #ecf0f6 url(/site/youth/images/main/notice_icon1.png) 52% no-repeat;background-size:16px 16px;transition-property: transform;transition-duration: 0.3s;}
+.activity_control .more {position: absolute;top: -9px;right: 0;width:39px;height:39px;border-radius:50%;background: #ecf0f6 url(../images/main/notice_icon1.png) 52% no-repeat;background-size:16px 16px;transition-property: transform;transition-duration: 0.3s;}
 
 .activity_list .notice_link .title{margin-top: 14px;/* margin-left: 7px; */margin-bottom: 6px;font-size: 19px;line-height: 30px;color:#444b5e;font-weight:500;letter-spacing: -0.015em;font-family: 'goorm';}
 .activity_list .notice_link .date{position:relative;/* padding-left: 27px; */font-size: 15px;line-height: 21px;color:#8896a0;font-family: 'Montserrat';}
-.activity_list .notice_link .date:before{/* display:block; */position:absolute;top: 3px;left: 6px;width:16px;height:16px;background: url(/site/youth/images/main/notice_icon3.png) 52% no-repeat;}
+.activity_list .notice_link .date:before{/* display:block; */position:absolute;top: 3px;left: 6px;width:16px;height:16px;background: url(../images/main/notice_icon3.png) 52% no-repeat;}
 
 @media (min-width: 1541px) {
     .rowgroup2 .wrap{width: 1600px;}
@@ -450,7 +450,7 @@ a.policy_link:hover{text-decoration: none;}
 .policy_item.n3:last-child{background-color:#fdf4fc;}
 .policy_item:nth-child(5n){margin-right:0;}
 .policy_item:before{display:block;position:absolute;bottom: 17px;right: 20px;width:95px;height:95px;background:#fff;border-radius:50%;}
-.policy_item:after{display:block;position:absolute;bottom: 41px;right: 42px;width:50px;height:43px;background: url(/site/youth/images/main/policy_icon.png) -16px 41% no-repeat;background-size:207px 54px;}
+.policy_item:after{display:block;position:absolute;bottom: 41px;right: 42px;width:50px;height:43px;background: url(../images/main/policy_icon.png) -16px 41% no-repeat;background-size:207px 54px;}
 .policy_item.n1:after{background-position: -16px 41%;}
 .policy_item.n2:after{/* bottom: 40px; *//* right: 39px; */height: 46px;background-position: -83px 42%;}
 .policy_item.n3:after{bottom: 40px;right: 34px;height: 36px;background-position-x: -142px;}
@@ -470,8 +470,8 @@ a.policy_link:hover{text-decoration: none;}
 
 .policy_more {display: block;position:relative;margin-bottom: 86px;text-align: center;text-decoration-line:none;}
 .policy_more span{position: relative;padding: 0 55px 17px 4px;font-size:16px;line-height: 24px;color:#3b3f4a;font-family: 'goorm';font-weight:400;border-bottom: 1px solid #c5cad4;}
-.policy_more span:before{display: block;position:absolute;transform: rotate(0deg);top: -9px;right:0;width:39px;height:39px;border-radius:50%;background: #ecf0f6 url(/site/youth/images/main/arrow.png) 50% 50% no-repeat;background-size:16px 16px;}
-.policy_more:hover span:before{background: #333948 url(/site/youth/images/main/arrow2.png) 50% 50% no-repeat;background-size:16px 16px;}
+.policy_more span:before{display: block;position:absolute;transform: rotate(0deg);top: -9px;right:0;width:39px;height:39px;border-radius:50%;background: #ecf0f6 url(../images/main/arrow.png) 50% 50% no-repeat;background-size:16px 16px;}
+.policy_more:hover span:before{background: #333948 url(../images/main/arrow2.png) 50% 50% no-repeat;background-size:16px 16px;}
 .policy_more:hover span{border-bottom: 1px solid #72798a;}
 
 @media (max-width: 1540px) {
